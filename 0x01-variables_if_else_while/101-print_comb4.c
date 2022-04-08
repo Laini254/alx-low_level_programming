@@ -12,9 +12,9 @@ int main(void)
 	{
 		b = i / 100; /* hundreds */
 		c = (i / 10) % 10; /* tens */
-		d - i % 10; /* singles */
+		d = i % 10; /* singles */
 
-		if (b < c && c < 1)
+		if (b < c && c < d)
 		{
 			putchar(b + '0');
 			putchar(c + '0');
