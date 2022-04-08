@@ -2,12 +2,20 @@
 
 /**
  * main - Entry point
- * Description: Using putchar function to print the alphabet in lowercase and then uppercase
+ * Description: putchar function to print alphabet in lowercase and lowercase
  * Return: 0
  */
 int main(void)
 {
 	char c = 'a';
+
+	while (c <= 'Z')
+	{
+		putchar(c);
+		c++;
+	}
+
+	c = 'A';
 
 	while (c <= 'Z')
 	{
