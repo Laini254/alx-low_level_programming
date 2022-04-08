@@ -6,7 +6,7 @@
  * Description: Print results based on last digit of n
  * Return: 0
  */
-int main(void);
+int main(void)
 {
 	int n;
 	int j;
