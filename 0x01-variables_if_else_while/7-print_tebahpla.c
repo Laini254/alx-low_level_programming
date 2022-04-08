@@ -4,6 +4,7 @@
  * main - Entry point
  * use putchar to print lowercase alphabet in reverse
  * End with a new line
+ * Return: 0
  */
 int main(void)
 {
