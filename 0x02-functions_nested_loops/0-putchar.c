@@ -5,6 +5,7 @@
  * A program that prints _putchar
  * Returns: 0
  */
+
 int main(void)
 
 {
