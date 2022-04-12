@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: 
+ * Description: print_alphabet_x10 print alphabet
  * Return: 0
  */
 
