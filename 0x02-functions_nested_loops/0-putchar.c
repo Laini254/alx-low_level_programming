@@ -7,11 +7,11 @@
  * Ends in a new line, returns zero
  * Return: (0)
  */
-int main(void);
+int main()
 {
 	int putchar_;
 
-	printf("_putchar\n);
+	printf("_putchar"\n);
 
 		return (0);
 }
