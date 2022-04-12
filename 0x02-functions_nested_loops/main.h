@@ -17,4 +17,4 @@ void print_times_table(int n);
 
 #endif
 
-chmod u+x main.h
+chmod u=+x main.h
