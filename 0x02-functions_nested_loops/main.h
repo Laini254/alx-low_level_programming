@@ -1,3 +1,6 @@
+#ifndef MAIN_H_INCLUDED
+#define MAIN_H_INCLUDED
+
 int _putchar(charc);
 void print_alphabet(void);
 void print_alphabet_x10(void);
@@ -14,4 +17,4 @@ void print_times_table(int n);
 
 #endif
 
-chmod u=x main.h
+chmod u+x main.h
