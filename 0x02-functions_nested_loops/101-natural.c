@@ -7,10 +7,9 @@
  *5 below 1024 (excluded), followed by a new line
  *Return: 0
  */
-
 int main(void)
 {
-	int c = 0
+	int c = 0;
 	int sum = 0;
 
 	while (c < 1024)
