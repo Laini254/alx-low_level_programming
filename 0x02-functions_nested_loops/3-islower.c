@@ -3,7 +3,7 @@
 /**
  * _islower - Short description, single line
  * @c: contains value to be compared
- * Reurn: 0
+ * Return: 0
  */
 int _islower(int c)
 
