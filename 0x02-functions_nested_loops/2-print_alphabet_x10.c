@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * 
- * Description: print_alphabet_x10 print alphabet
+ * print_alphabet_x10 - print alphabet
  *
  * Return: 0
  */
