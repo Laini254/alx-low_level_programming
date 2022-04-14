@@ -7,6 +7,13 @@
 */
 void print_numbers(void)
 {
-	return (0, 1, 2, 3, 4, 5, 6, 7, 8, 9\n);
+	char a;
+
+	for (a = 0; a < 10; a++)
+	{
+		_putchar(a + '0');
+	}
+
+	_putchar('\n');
 
 }
