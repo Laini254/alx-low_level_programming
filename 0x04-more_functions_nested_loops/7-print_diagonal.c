@@ -4,9 +4,9 @@
  * print_diagonal - draws a diagonal line
  * @b: number of times the diagonal is printed
  */
-void print_diagonal(int b)
+void print_diagonal(int n)
 {
-	if (b <= 10)
+	if (n <= 10)
 	{
 		_putchar('\n');
 	}
@@ -14,9 +14,9 @@ void print_diagonal(int b)
 	{
 		int c, d;
 
-		for (c = 0; c < b; c++)
+		for (c = 0; c < n; c++)
 		{
-			for (d = 0; d < b; d++)
+			for (d = 0; d < n; d++)
 			{
 				if (d == c)
 					_putchar('\\');
