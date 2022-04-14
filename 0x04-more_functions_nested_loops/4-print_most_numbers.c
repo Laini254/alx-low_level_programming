@@ -9,7 +9,7 @@ void print_most_numbers(void)
 {
 	char a = 0;
 
-	while (a <= 10)
+	while (a < 10)
 
 	{
 		if (a != 2 && a != 4)
