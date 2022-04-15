@@ -1,18 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - check the code fo programming candidates
- * Return: void
+ * main - check the code for programming candidates
+ * Return: 0
  */
 
 int main(void)
 {
-
 	int i = 1;
 
 	while (i <= 100)
 	{
-		if (i %3 -- 0 && i % 5 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 		{
 			printf("FizzBuzz");
 		}
