@@ -4,6 +4,7 @@
  *print_diagonal - draws a diagonal line on the terminal
  *@n: number of times character \\ is printed
  */
+
 void print_diagonal(int n)
 {
 	if (n <= 0)
