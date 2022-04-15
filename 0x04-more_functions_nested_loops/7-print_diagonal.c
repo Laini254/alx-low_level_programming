@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- *print_diagonal - draws a diagonal line on the terminal
- *@n: number of times character \\ is printed
+*print_diagonal - draws a diagonal line on the terminal
+*@n: number of \\ to be printed
+*Return: void
  */
 
 void print_diagonal(int n)
