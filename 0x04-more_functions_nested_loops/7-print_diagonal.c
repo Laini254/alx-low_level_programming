@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
-*print_diagonal - draws a diagonal line on the terminal
-*@n: number of \\ to be printed
-*Return: void
+ *print_diagonal - draws a diagonal line on the terminal
+ *@n: number of times the character \ should be pinted
  */
-
 void print_diagonal(int n)
 {
 	if (n <= 0)
