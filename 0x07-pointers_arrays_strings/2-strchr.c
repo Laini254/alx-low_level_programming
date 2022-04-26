@@ -1,30 +1,21 @@
 #include "main.h"
 
 /**
- * _strspn - gets a pointer to the first occurrence of the character c
- * @s: initial segment
- * @accept: accepted bytes
- * Return: number of accepted bytes
+ * *_strchr - Returns a pointer to the first occurrence of the character c
+ * @s: string
+ * @c: character
+ * Return: pointer to the first occurence of c
  */
 
-unsigned int _strspn(char *s, char *accept)
+char *_strchr(char *s, char c)
 {
-	unsigned int a, b, bool;
+	unsigned int a = 0;
 
-	for (a = 0; *(s + a) != '\0'; a++)
-	{
-		bool = 1;
-		for (b = 0; *(accept + b) != '\0'; b++)
-		{
-			if (*(s + a) == *(accept + b))
-			{
-				bool = 0;
-				break;
-			}
-		}
-		if (bool == 1)
-			break;
-	}
-	return (a);
+	for (; *(s + a) != '\0'; a++)
+		if (*(s + a) == c)
+			return (s + a);
+	if (*(s + a) == c)
+		return (s + a);
+	return ('\0');
 
 }
