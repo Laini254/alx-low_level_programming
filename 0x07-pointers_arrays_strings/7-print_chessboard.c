@@ -3,7 +3,7 @@
 /**
  * print_chessboard - prints the chessboard.
  *@a: pointer
- *Return: 0
+ *Return: no return
  */
 
 void print_chessboard(char (*a)[8])
