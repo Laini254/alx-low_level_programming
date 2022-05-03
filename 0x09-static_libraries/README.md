@@ -1,1 +1,1 @@
-PointersArrays readme
+Static library readme
