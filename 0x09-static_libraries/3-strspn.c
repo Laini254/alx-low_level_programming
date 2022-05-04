@@ -1,22 +1,21 @@
 #include "main.h"
 
 /**
- * _strspn - gets a pointer to the first occurrence of the character c
- * @s: initial segment
- * @accept: accepted bytes
- * Return: number of accepted bytes
+ * _strspn - gets the length of a prefix substring.
+ * @s: initial segment.
+ * @accept: accepted bytes.
+ * Return: the number of accepted bytes.
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int a, b, bool;
+	unsigned int i, j, bool;
 
-	for (a = 0; *(s + a) != '\0'; a++)
+	for (i = 0; *(s + i) != '\0'; i++)
 	{
 		bool = 1;
-		for (b = 0; *(accept + b) != '\0'; b++)
+		for (j = 0; *(accept + j) != '\0'; j++)
 		{
-			if (*(s + a) == *(accept + b))
+			if (*(s + i) == *(accept + j))
 			{
 				bool = 0;
 				break;
@@ -25,6 +24,5 @@ unsigned int _strspn(char *s, char *accept)
 		if (bool == 1)
 			break;
 	}
-	return (a);
-
+	return (i);
 }

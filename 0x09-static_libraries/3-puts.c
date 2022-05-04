@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _puts - prints a string
+ * _puts - prints a string, followed by a new line,
  * @str: pointer to the string to print
- * Return: 0
+ * Return: void
  */
 
 void _puts(char *str)
@@ -15,6 +15,5 @@ void _puts(char *str)
 		_putchar(str[i]);
 		i++;
 	}
-
 	_putchar('\n');
 }
